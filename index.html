@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document_js</title>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+        $(document).ready(function(){
+            $("img").hide(3000);
+            $("h1").click(function(){
+                $("#Amy").show(6000);
+            });
+            $("h2").click(function(){
+                $("#Rosa").show(6000);
+            });
+            $("h3").click(function(){
+                $("#Freddie").show(6000);
+            });
+            $("h4").click(function(){
+                $("#Nirvana").show(6000);
+            });
+            $("h5").click(function(){
+                $("#LDM").show(6000);
+            });
+            $("h6").click(function(){
+                $("#Marilyn").show(6000);
+            });
+        });
+    </script>
+    <style type="text/css">
+        h1{
+            color: crimson;
+        }
+        h2{
+            color: pink;
+        }
+        h3{
+            color: darkgreen;
+        }
+        h4{
+            color: yellow;
+        }
+        h5{
+            color: chocolate;
+        }
+        h6{
+            color: black;
+        }
+        h1,h2,h3,h4,h5,h6{
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Amy Winehouse</h1>
+    <img id="Amy" src="img/amy.gif" alt="">
+    <h2>Rosalía</h2>
+    <img id="Rosa" src="img/rosalia.gif" alt="">
+    <h3>Freddie Mercury</h3>
+    <img id="Freddie" src="img/freddie.gif" alt="">
+    <h4>Nirvana</h4>
+    <img id="Nirvana" src="img/nirvana.gif" alt="">
+    <h5>Los de Marras</h5>
+    <img id="LDM" src="img/los%20de%20marras.jpg" alt="">
+    <h6>Marilyn Manson</h6>
+    <img id="Marilyn" src="img/marilyn.gif" alt="">
+</body>
+</html>
